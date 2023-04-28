@@ -1,6 +1,6 @@
 :root {
-  --white-bgcolor: #ffffff;
-  --light-bgcolor: #f4f4fd;
+  --white-color: #ffffff;
+  --light-color: #f4f4fd;
   --dark-color: #2e2f42;
   --primary-text-color: #434455;
   --subtle-text-color: #8e8f99;
@@ -14,4 +14,125 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(#434455);
   background-color: var(--white-bgcolor);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--dark-color);
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-blue {
+  color: var(--primary-brand-color);
+}
+
+.menu-item {
+  color: var(--dark-color);
+  letter-spacing: 0.02em;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--pressed-state-color);
+}
+
+.header-contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--pressed-state-color);
+}
+
+.order-service {
+  background-color: var(--dark-color);
+}
+
+.order-service-title {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.order-service-btn {
+  color: var(--white-color);
+  font-family: inherit;
+  background-color: var(--primary-brand-color);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.title-direction {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.content-direction {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+.team {
+  background-color: var(--light-color);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.logo-footer {
+  color: var(--light-color);
 }
