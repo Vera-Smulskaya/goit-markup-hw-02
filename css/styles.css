@@ -9,3 +9,9 @@
   --pressed-state-color: #404bbf;
   --success-color: #31d0aa;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(#434455);
+  background-color: var(--white-bgcolor);
+}
