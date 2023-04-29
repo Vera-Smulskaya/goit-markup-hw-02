@@ -131,6 +131,10 @@ body {
   background-color: var(--light-color);
 }
 
+.team-list-item {
+  background-color: var(--white-color);
+}
+
 .name {
   font-weight: 500;
   font-size: var(--title-font-size);
