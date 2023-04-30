@@ -11,7 +11,7 @@
   --main-font-size: 16px;
   --logo-font-size: 18px;
   --title-font-size: 20px;
-  --main-title-font-size: ;
+  --main-title-font-size: 24px;
   --main-line-height: 1.5;
   --title-line-height: 1.2;
 }
@@ -21,7 +21,6 @@ body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
   font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
 }
 
 .link {
@@ -50,6 +49,7 @@ body {
   color: var(--dark-color);
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: var(--main-line-height);
 }
 
 .menu-item:hover,
@@ -58,6 +58,7 @@ body {
 }
 
 .header-contact {
+  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
@@ -109,6 +110,7 @@ body {
 }
 
 .content-direction {
+  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
@@ -189,4 +191,9 @@ body {
   line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.footer-discription {
+  line-height: var(--main-line-height);
+  letter-spacing: 0.02em;
 }
