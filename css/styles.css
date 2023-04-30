@@ -146,6 +146,7 @@ body {
 }
 
 .position {
+  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
